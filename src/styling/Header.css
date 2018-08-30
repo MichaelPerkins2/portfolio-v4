@@ -1,0 +1,16 @@
+
+.header {
+    color: white;
+    letter-spacing: 2px;
+}
+
+.header a {
+    color: #f2f2f2;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    text-decoration: none;
+    font-size: 3.1vh;
+    text-align: center;
+}

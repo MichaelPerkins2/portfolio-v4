@@ -1,5 +1,5 @@
+
 import React, { Component } from 'react';
-import {Link} from 'react-router-dom';
 
 
 class Home extends Component {
@@ -8,43 +8,36 @@ class Home extends Component {
             <div className="page">
                 <div className="home">
                     <header className="header">
-                        <div className="container-fluid">
-                            <div className="row">
-                                <div className="col text-left links">
+                        <div className="">
+                                <div className="links">
                                     <a href="/" className="home-link" id=""><i className="fa fa-home"></i></a>
                                     <a href="http://localhost:3000#projects">Projects</a>
                                     <a href="http://localhost:3000#about">About</a>
                                     <a href="http://localhost:3000#contact">Contact</a>
                                 </div>
-                                <div className="col text-right social">
-                                    <a href="https://www.facebook.com/michael.perkins.d" className="fa fa-facebook"></a>
-                                    <a href="https://www.linkedin.com/in/michael-perkins-d/" className="fa fa-linkedin"></a>
-                                    <a href="https://github.com/MichaelPerkins2" className="fa fa-github"></a>
-                                    <a href="mailto:michael.perkins.d@gmail.com" className="fa fa-envelope"></a>
-                                </div>
-                            </div>
                         </div>
                     </header>
                     <section className="section1">
                         <main>
                             <div className="parallax">
                                 <br/>
-                                <section className="container-fluid">
-                                    <h1 className="col-6 title">Michael Perkins</h1>
-                                    <h2 className="col-9 subtitle">Full-Stack Web Development</h2>
+                                <section className="">
+                                    <h1 className="title">Michael Perkins</h1>
+                                    <h2 className="subtitle">Full-Stack Web Development</h2>
                                 </section>
                                 <i className="arrow fa fa-angle-down"></i>
                             </div>
-
                         </main>
                     </section>
                 </div>
+                <hr className="col-6 hr"/>
                 <div className="projects">
                     <a name="projects"></a>
                     <section className="section2">
                         <h2 className="headers">Projects</h2>
-
+                        <hr/>
                     </section>
+                    <hr/>
                     <div className="parallax2">
                     </div>
                 </div>
@@ -57,6 +50,7 @@ class Home extends Component {
                     <div className="parallax3">
                     </div>
                 </div>
+                <hr className="col-6 hr"/>
                 <div className="contact">
                     <a name="contact"></a>
                     <section className="section4">
@@ -71,6 +65,13 @@ class Home extends Component {
                         <div className="parallax4">
                         </div>
                     </section>
+                </div>
+                <hr className="col-6 hr"/>
+                <div className="container-fluid social">
+                    <a href="https://www.facebook.com/michael.perkins.d" className="fa fa-facebook"></a>
+                    <a href="https://www.linkedin.com/in/michael-perkins-d/" className="fa fa-linkedin"></a>
+                    <a href="https://github.com/MichaelPerkins2" className="fa fa-github"></a>
+                    <a href="mailto:michael.perkins.d@gmail.com" className="fa fa-envelope"></a>
                 </div>
             </div>
         )
