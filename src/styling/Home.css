@@ -1,6 +1,6 @@
 
 .page {
-    font-family: Geneva;
+    font-family: Geneva, serif;
 }
 
 .home {
@@ -11,7 +11,13 @@
 }
 
 .arrow {
+    color: white;
     text-align: center;
+    text-decoration: none;
+}
+
+.arrow a:hover {
+    color: #7FDBFF;
 }
 
 .social {
@@ -20,7 +26,7 @@
 }
 
 .social a {
-    color: #0074D9;
+    color: cornflowerblue;
     padding-left: 1vw;
     padding-right: 1vw;
     padding-top: 1vh;
@@ -28,6 +34,10 @@
     text-decoration: none;
     font-size: 4vh;
     text-align: center;
+}
+
+.social a:hover {
+    color: slategray;
 }
 
 hr {
