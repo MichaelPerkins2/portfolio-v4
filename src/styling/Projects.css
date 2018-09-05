@@ -2,4 +2,19 @@
 .projects {
     text-align: center;
     height: 60vh;
+
+}
+.p-parallax {
+    background-image: url("../img/blueprints.jpg");
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: .75;
+    height: 80vh;
+}
+
+.project-content {
+    background-color: white;
 }

@@ -1,6 +1,21 @@
 
 .contact {
     text-align: center;
-    background-color: #ECF0F1;
+    /*background-color: #ECF0F1;*/
     height: 60vh
+}
+
+.c-parallax {
+    background-image: url("../img/city.jpg");
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: .85;
+    height: 80.5vh;
+}
+
+.contact-content {
+    background-color: white;
 }
