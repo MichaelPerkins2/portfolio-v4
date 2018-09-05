@@ -7,13 +7,15 @@
     background-color: #001f3f;
     color: white;
     letter-spacing: 4px;
-    height: 75vh;
+    height: 100vh;
 }
 
 .arrow {
     color: white;
     text-align: center;
     text-decoration: none;
+    position: relative;
+    top: 65%;
 }
 
 .arrow a:hover {

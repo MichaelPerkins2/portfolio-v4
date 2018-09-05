@@ -7,27 +7,23 @@ class Home extends Component {
     render() {
         return (
             <div className="page">
-                <div className="home">
+                <div className="home container-fluid">
                     <section id='top'>
                         <header className="header">
-                            <div className="">
-                                <div className="links">
-                                    <AnchorLink href="#top"><i className="fa fa-home"></i></AnchorLink>
-                                    <AnchorLink offset='60' href="#projects">Projects</AnchorLink>
-                                    <AnchorLink offset='60' href="#about">About</AnchorLink>
-                                    <AnchorLink offset='60' href="#contact">Contact</AnchorLink>
-                                </div>
-                            </div>
+                            <AnchorLink href="#top"><i className="fa fa-home"></i></AnchorLink>
+                            <AnchorLink offset='60' href="#projects">Projects</AnchorLink>
+                            <AnchorLink offset='60' href="#about">About</AnchorLink>
+                            <AnchorLink offset='60' href="#contact">Contact</AnchorLink>
                         </header>
                     </section>
-                    <main>
-                        <br/>
-                        <h1 className="title">Michael <br/> Perkins</h1>
-                        <h2 className="subtitle">Full-Stack <br/> Web Development</h2>
-                        <div className="arrow">
-                            <AnchorLink offset='60' href="#projects" className="arrow"><i className="fa fa-angle-down fa-2x"></i></AnchorLink>
-                        </div>
-                    </main>
+                    <br/>
+                    <div className="row">
+                        <h1 className="title col">Michael <br/> Perkins</h1>
+                        <h2 className="subtitle col">Full-Stack <br/> Web Development</h2>
+                    </div>
+                    <div className="arrow">
+                        <AnchorLink offset='60' href="#projects" className="arrow"><i className="fa fa-angle-down fa-2x"></i></AnchorLink>
+                    </div>
                 </div>
                 <hr className="col-6 hr"/>
                 <div className="projects">
@@ -37,7 +33,7 @@ class Home extends Component {
                 </div>
                 <div className="about">
                     <hr className="col-6 hr"/>
-                    <section className="section3">
+                    <section>
                         <section id='about'>
                             <h2 className="headers">About</h2>
                         </section>
