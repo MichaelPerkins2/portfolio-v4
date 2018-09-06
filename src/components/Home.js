@@ -7,7 +7,7 @@ class Home extends Component {
     render() {
         return (
             <div className="page">
-                <div className="home container-fluid">
+                <div className="home">
                     <section id='top'>
                         <header className="header">
                             <AnchorLink href="#top"><i className="fa fa-home"></i></AnchorLink>
@@ -17,19 +17,19 @@ class Home extends Component {
                         </header>
                     </section>
                     <br/>
-                    <div className="row">
-                        <h1 className="title col">Michael <br/> Perkins</h1>
-                        <h2 className="subtitle col">Full-Stack <br/> Web Development</h2>
+                    <div className="">
+                        <h1 className="title">Michael<br/>Perkins</h1>
+                        <h2 className="subtitle">:Full-Stack<br/>Web Development</h2>
                     </div>
                     <div className="arrow">
                         <AnchorLink offset='-600' href="#projects" className="arrow"><i className="fa fa-angle-down fa-2x"></i></AnchorLink>
                     </div>
                 </div>
-                <div className="p-parallax">
+                <div className="p-parallax container-fluid">
                     <br/>
                     <div className="projects">
                         <section id='projects' className="row justify-content-center">
-                            <h2 className="headers col-2">Projects</h2>
+                            <h2 className="headers col-lg-2 col-md-2 col-sm-4 col-7">Projects</h2>
                         </section>
                         <hr className="col-6 hr"/>
                         <div className="project-content container">
@@ -48,11 +48,11 @@ class Home extends Component {
                     </div>
                 </div>
                 <div className="break"></div>
-                <div className="a-parallax">
+                <div className="a-parallax container-fluid">
                     <br/>
                     <div className="about">
                         <section id='about' className="row justify-content-center">
-                            <h2 className="headers col-2">About</h2>
+                            <h2 className="headers col-lg-2 col-md-2 col-sm-4 col-7">About</h2>
                         </section>
                         <hr className="col-6 hr"/>
                         <div className="about-content container">
@@ -71,11 +71,11 @@ class Home extends Component {
                     </div>
                 </div>
                 <div className="break"></div>
-                <div className="c-parallax">
+                <div className="c-parallax container-fluid">
                     <br/>
                     <div className="contact">
                         <section id='contact' className="row justify-content-center">
-                            <h2 className="headers col-2">Contact</h2>
+                            <h2 className="headers col-lg-2 col-md-2 col-sm-4 col-7">Contact</h2>
                         </section>
                         <hr className="col-6 hr"/>
                         <div className="contact-content container">
