@@ -16,7 +16,6 @@ class Home extends Component {
                             <AnchorLink offset='-1902' href="#contact">Contact</AnchorLink>
                         </header>
                     </section>
-                    <br/>
                     <div className="">
                         <h1 className="title">Michael<br/>Perkins</h1>
                         <h2 className="subtitle">:Full-Stack<br/>Web Development</h2>
@@ -94,6 +93,36 @@ class Home extends Component {
                     <a href="https://github.com/MichaelPerkins2" className="fa fa-github"></a>
                     <a href="mailto:michael.perkins.d@gmail.com" className="fa fa-envelope"></a>
                 </div>
+            {/*<div className="container">*/}
+                {/*<div id="carouselExampleSlidesOnly" className="carousel slide" data-ride="carousel">*/}
+                    {/*<ol className="carousel-indicators">*/}
+                        {/*<li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>*/}
+                        {/*<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>*/}
+                        {/*<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>*/}
+                    {/*</ol>*/}
+                    {/*<div className="carousel-inner">*/}
+                        {/*<div className="carousel-item active">*/}
+                            {/*<img className="d-block w-100" src={require('../img/carousel/Earth.jpg')} alt=" First slide"/>*/}
+                        {/*</div>*/}
+                        {/*<div className="carousel-item">*/}
+                            {/*<img className="d-block w-100" src={require('../img/carousel/Lighthouse.jpg')} alt="Second slide"/>*/}
+                        {/*</div>*/}
+                        {/*<div className="carousel-item">*/}
+                            {/*<img className="d-block w-100" src={require('../img/carousel/Matterhorn.jpg')} alt="Third slide"/>*/}
+                        {/*</div>*/}
+                    {/*</div>*/}
+                    {/*<a className="carousel-control-prev" href="#carouselExampleIndicators" role="button"*/}
+                       {/*data-slide="prev">*/}
+                        {/*<span className="carousel-control-prev-icon" aria-hidden="true"></span>*/}
+                        {/*<span className="sr-only">Previous</span>*/}
+                    {/*</a>*/}
+                    {/*<a className="carousel-control-next" href="#carouselExampleIndicators" role="button"*/}
+                       {/*data-slide="next">*/}
+                        {/*<span className="carousel-control-next-icon" aria-hidden="true"></span>*/}
+                        {/*<span className="sr-only">Next</span>*/}
+                    {/*</a>*/}
+                {/*</div>*/}
+            {/*</div>*/}
             </div>
         )
     }
