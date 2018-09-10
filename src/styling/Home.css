@@ -1,6 +1,6 @@
 
 .page {
-    font-family: Geneva, serif;
+    font-family: Geneva, sans-serif;
 
 }
 
@@ -20,7 +20,7 @@
     text-align: center;
     text-decoration: none;
     position: relative;
-    top: 40%;
+    top: 50%;
 }
 
 .arrow a:hover {

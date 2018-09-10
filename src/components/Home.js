@@ -11,9 +11,9 @@ class Home extends Component {
                     <section id='top'>
                         <header className="header">
                             <AnchorLink href="#top"><i className="fa fa-home"></i></AnchorLink>
-                            <AnchorLink offset='-600' href="#projects">Projects</AnchorLink>
-                            <AnchorLink offset='-1236' href="#about">About</AnchorLink>
-                            <AnchorLink offset='-1902' href="#contact">Contact</AnchorLink>
+                            <AnchorLink offset='-910' href="#projects">Projects</AnchorLink>
+                            <AnchorLink offset='-1870' href="#about">About</AnchorLink>
+                            <AnchorLink offset='-3000' href="#contact">Contact</AnchorLink>
                         </header>
                     </section>
                     <div className="">
@@ -21,7 +21,7 @@ class Home extends Component {
                         <h2 className="subtitle">:Full-Stack<br/>Web Development</h2>
                     </div>
                     <div className="arrow">
-                        <AnchorLink offset='-600' href="#projects" className="arrow"><i className="fa fa-angle-down fa-2x"></i></AnchorLink>
+                        <AnchorLink offset='-910' href="#projects" className="arrow"><i className="fa fa-angle-down fa-3x"></i></AnchorLink>
                     </div>
                 </div>
                 <div className="p-parallax container-fluid">
@@ -32,17 +32,22 @@ class Home extends Component {
                         </section>
                         <hr className="col-6 hr"/>
                         <div className="project-content container">
-                            <p>Here are my projects</p>
-                            <br/>
-                            <br/>
-                            <br/>
-                            <br/>
-                            <br/>
-                            <br/>
-                            <br/>
-                            <br/>
-                            <br/>
-                            <br/>
+                            <div className="row">
+                                <div className="project1 col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                    To-Do List
+                                </div>
+                                <div className="project2 col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                    Blackjack
+                                </div>
+                            </div>
+                            <div className="row">
+                                <div className="project3 col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                    Tic-Tac-Toe
+                                </div>
+                                <div className="project4 col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                    Scrubble
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

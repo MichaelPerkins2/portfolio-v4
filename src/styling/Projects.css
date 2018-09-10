@@ -17,4 +17,34 @@
 
 .project-content {
     background-color: white;
+
+}
+
+.project1 {
+    background-color: #2E5894;
+    color: white;
+    height: 20vh;
+}
+
+.project2 {
+    background-color: #2D383A;
+    color: white;
+    height: 20vh;
+}
+
+.project3 {
+    background-color: #CA3435;
+    color: white;
+    height: 20vh;
+}
+
+.project4 {
+    background-color: #58427C;
+    color: white;
+    height: 20vh;
+}
+
+.project1:hover, .project2:hover, .project3:hover, .project4:hover {
+    background-color: #001f3f;
+
 }
