@@ -3,6 +3,8 @@ import React, { Component } from 'react';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 
+
+
 class Home extends Component {
     render() {
         return (
@@ -16,7 +18,7 @@ class Home extends Component {
                             <AnchorLink offset='-3000' href="#contact">Contact</AnchorLink>
                         </header>
                     </section>
-                    <div className="">
+                    <div>
                         <h1 className="title">Michael<br/>Perkins</h1>
                         <h2 className="subtitle">:Full-Stack<br/>Web Development</h2>
                     </div>
@@ -34,18 +36,25 @@ class Home extends Component {
                         <div className="project-content container">
                             <div className="row">
                                 <div className="project1 col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                                    To-Do List
+                                    <h4>To-Do List</h4>
+                                    <p>View To-Do List <a className="project-content-links" href="https://to-do-list-mp.netlify.com/" target="_blank">Here</a></p>
+                                    <p>View the code for this project: <a className="project-content-links" href="https://github.com/MichaelPerkins2/to-do-list-fe" target="_blank">Front</a> // <a className="project-content-links" href="https://github.com/MichaelPerkins2/to-do-list-be" target="_blank">Back</a></p>
                                 </div>
                                 <div className="project2 col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                                    Blackjack
+                                    <h4>Blackjack</h4>
+                                    <p>View Blackjack Game <a className="project-content-links" href="https://blackjack-game-mp.herokuapp.com/" target="_blank">Here</a></p>
+                                    <p>View the <a className="project-content-links" href="https://github.com/MichaelPerkins2/blackjack" target="_blank">code</a> for this project</p>
                                 </div>
                             </div>
                             <div className="row">
                                 <div className="project3 col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                                    Tic-Tac-Toe
+                                    <h4>Tic-Tac-Toe</h4>
+                                    <p>View Tic-Tac-Toe Game <a className="project-content-links" href="https://tic-tac-toe-mp.netlify.com/" target="_blank">Here</a></p>
+                                    <p>View the <a className="project-content-links" href="https://github.com/MichaelPerkins2/tic-tac-toe-game" target="_blank">code</a> for this project</p>
                                 </div>
                                 <div className="project4 col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                                    Scrubble
+                                    <h4>Scrubble</h4>
+                                    <p>View the <a className="project-content-links" href="https://github.com/MichaelPerkins2/scrubble" target="_blank">code</a> for this project</p>
                                 </div>
                             </div>
                         </div>
@@ -86,17 +95,17 @@ class Home extends Component {
                             <p>Feel free to reach out to me</p>
                             <div className="contacts">
                                 <p>Email: michael.perkins.d@gmail.com</p>
-                            <p>LinkedIn: <a className="linked-in" href="https://www.linkedin.com/in/michael-perkins-d/">Michael Perkins</a></p>
+                            <p>LinkedIn: <a className="linked-in" href="https://www.linkedin.com/in/michael-perkins-d/" target="_blank">Michael Perkins</a></p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <hr className="col-6 hr"/>
                 <div className="container-fluid social">
-                    <a href="https://www.facebook.com/michael.perkins.d" className="fa fa-facebook"></a>
-                    <a href="https://www.linkedin.com/in/michael-perkins-d/" className="fa fa-linkedin"></a>
-                    <a href="https://github.com/MichaelPerkins2" className="fa fa-github"></a>
-                    <a href="mailto:michael.perkins.d@gmail.com" className="fa fa-envelope"></a>
+                    <a href="https://www.facebook.com/michael.perkins.d" target="_blank" className="fa fa-facebook"></a>
+                    <a href="https://www.linkedin.com/in/michael-perkins-d/" target="_blank" className="fa fa-linkedin"></a>
+                    <a href="https://github.com/MichaelPerkins2" target="_blank" className="fa fa-github"></a>
+                    <a href="mailto:michael.perkins.d@gmail.com" target="_blank" className="fa fa-envelope"></a>
                 </div>
             {/*<div className="container">*/}
                 {/*<div id="carouselExampleSlidesOnly" className="carousel slide" data-ride="carousel">*/}
