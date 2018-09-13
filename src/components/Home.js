@@ -13,7 +13,7 @@ class Home extends Component {
                     <section id='top'>
                         <header className="header">
                             <AnchorLink href="#top"><i className="fa fa-home"></i></AnchorLink>
-                            <AnchorLink offset='-910' href="#projects">Projects</AnchorLink>
+                            <AnchorLink offset={() => -910} href="#projects">Projects</AnchorLink>
                             <AnchorLink offset='-1870' href="#about">About</AnchorLink>
                             <AnchorLink offset='-3000' href="#contact">Contact</AnchorLink>
                         </header>
@@ -73,6 +73,7 @@ class Home extends Component {
                         </section>
                         <hr className="col-6 hr"/>
                         <div className="about-content container">
+                            <br/>
                             <p className="about-p"> Hi, I am a full-stack developer from Salt Lake City, Utah. I have recently earned my Certificate of Proficiency from
                                 Helio Training's full-stack web development bootcamp course. I am analytical, detail-oriented, and ambitious about my goals,
                                 and plan to continue my education and to enhance my abilities as a developer.</p><br/>
@@ -98,10 +99,13 @@ class Home extends Component {
                         </section>
                         <hr className="col-6 hr"/>
                         <div className="contact-content container">
+                            <br/>
                             <p>Feel free to reach out to me</p>
                             <div className="contacts">
                                 <p>Email: michael.perkins.d@gmail.com</p>
-                            <p>LinkedIn: <a className="linked-in" href="https://www.linkedin.com/in/michael-perkins-d/" target="_blank">Michael Perkins</a></p>
+                                <p>LinkedIn: <a className="linked-in" href="https://www.linkedin.com/in/michael-perkins-d/" target="_blank">Michael Perkins</a></p>
+                                <br/>
+                                <br/>
                             </div>
                         </div>
                     </div>
