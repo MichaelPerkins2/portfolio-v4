@@ -55,3 +55,15 @@
 .project-content-links:hover {
     color: #7FDBFF;
 }
+
+.about-p {
+    text-align: justify;
+    text-justify: auto;
+    text-indent: 4em;
+    font-size: large;
+}
+
+.skills-p {
+    text-align: center;
+    font-size: large;
+}

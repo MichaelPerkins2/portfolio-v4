@@ -37,11 +37,13 @@ class Home extends Component {
                             <div className="row">
                                 <div className="project1 col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-6">
                                     <h4>To-Do List</h4>
+                                    <br/>
                                     <p>View To-Do List <a className="project-content-links" href="https://to-do-list-mp.netlify.com/" target="_blank">Here</a></p>
                                     <p>View the code for this project: <a className="project-content-links" href="https://github.com/MichaelPerkins2/to-do-list-fe" target="_blank">Front</a> // <a className="project-content-links" href="https://github.com/MichaelPerkins2/to-do-list-be" target="_blank">Back</a></p>
                                 </div>
                                 <div className="project2 col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-6">
                                     <h4>Blackjack</h4>
+                                    <br/>
                                     <p>View Blackjack Game <a className="project-content-links" href="https://blackjack-game-mp.herokuapp.com/" target="_blank">Here</a></p>
                                     <p>View the <a className="project-content-links" href="https://github.com/MichaelPerkins2/blackjack" target="_blank">code</a> for this project</p>
                                 </div>
@@ -49,11 +51,13 @@ class Home extends Component {
                             <div className="row">
                                 <div className="project3 col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-6">
                                     <h4>Tic-Tac-Toe</h4>
+                                    <br/>
                                     <p>View Tic-Tac-Toe Game <a className="project-content-links" href="https://tic-tac-toe-mp.netlify.com/" target="_blank">Here</a></p>
                                     <p>View the <a className="project-content-links" href="https://github.com/MichaelPerkins2/tic-tac-toe-game" target="_blank">code</a> for this project</p>
                                 </div>
                                 <div className="project4 col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-6">
                                     <h4>Scrubble</h4>
+                                    <br/>
                                     <p>View the <a className="project-content-links" href="https://github.com/MichaelPerkins2/scrubble" target="_blank">code</a> for this project</p>
                                 </div>
                             </div>
@@ -69,11 +73,13 @@ class Home extends Component {
                         </section>
                         <hr className="col-6 hr"/>
                         <div className="about-content container">
-                            <p>Hi, I am a full-stack developer from Salt Lake City, Utah.</p>
-                            <br/>
-                            <br/>
-                            <br/>
-                            <br/>
+                            <p className="about-p"> Hi, I am a full-stack developer from Salt Lake City, Utah. I have recently earned my Certificate of Proficiency from
+                                Helio Training's full-stack web development bootcamp course. I am analytical, detail-oriented, and ambitious about my goals,
+                                and plan to continue my education and to enhance my abilities as a developer.</p><br/>
+                            <p className="skills-p"> The skills I have acquired and will further develop include:<br/>
+                                JavaScript, HTML, CSS, React, GraphQL, MongoDB, and Bootstrap.</p><br/>
+                            <p className="about-p"> I am determined to deepen my knowledge and perfect my skills in each stage of development as to prove a valuable asset to a company.
+                                I am passionate about my work and driven to achieve success.</p>
                             <br/>
                             <br/>
                             <br/>
