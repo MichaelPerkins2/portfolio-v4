@@ -39,7 +39,8 @@ class Home extends Component {
                                     <h4>To-Do List</h4>
                                     <br/>
                                     <p>View To-Do List <a className="project-content-links" href="https://to-do-list-mp.netlify.com/" target="_blank">Here</a></p>
-                                    <p>View the code for this project: <a className="project-content-links" href="https://github.com/MichaelPerkins2/to-do-list-fe" target="_blank">Front</a> // <a className="project-content-links" href="https://github.com/MichaelPerkins2/to-do-list-be" target="_blank">Back</a></p>
+                                    <p>View the code for this project: <a className="project-content-links" href="https://github.com/MichaelPerkins2/to-do-list-fe" target="_blank">Front</a> //
+                                        <a className="project-content-links" href="https://github.com/MichaelPerkins2/to-do-list-be" target="_blank">Back</a></p>
                                 </div>
                                 <div className="project2 col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-6">
                                     <h4>Blackjack</h4>
@@ -100,8 +101,9 @@ class Home extends Component {
                         <hr className="col-6 hr"/>
                         <div className="contact-content container">
                             <br/>
-                            <p>Feel free to reach out to me</p>
-                            <div className="contacts">
+
+                            <div className="contact-info">
+                                <p>Feel free to reach out to me:</p>
                                 <p>Email: michael.perkins.d@gmail.com</p>
                                 <p>LinkedIn: <a className="linked-in" href="https://www.linkedin.com/in/michael-perkins-d/" target="_blank">Michael Perkins</a></p>
                                 <br/>
