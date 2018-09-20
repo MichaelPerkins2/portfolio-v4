@@ -40,7 +40,7 @@ class Home extends Component {
                                     <br/>
                                     <p>View To-Do List <a className="project-content-links" href="https://to-do-list-mp.netlify.com/" target="_blank">Here</a></p>
                                     <p>View the code for this project: <a className="project-content-links" href="https://github.com/MichaelPerkins2/to-do-list-fe" target="_blank">Front</a> //
-                                        <a className="project-content-links" href="https://github.com/MichaelPerkins2/to-do-list-be" target="_blank">Back</a></p>
+                                        <a className="project-content-links" href="https://github.com/MichaelPerkins2/to-do-list-be" target="_blank"> Back</a></p>
                                 </div>
                                 <div className="project2 col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-6">
                                     <h4>Blackjack</h4>
